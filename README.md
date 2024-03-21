@@ -20,7 +20,7 @@ WNEXT è uno script Bash progettato per semplificare lo sviluppo di web app basa
 1. Per iniziare, assicurati di avere Docker e Bash installati sul tuo sistema. 
 2.   Scarica il repository di WNEXT sul tuo computer. 
 3. Esegui quindi lo script WNEXT utilizzando il comando `./wnext help` per visualizzare l'elenco completo dei comandi disponibili e le relative istruzioni.
-
+4. Esegui `./wnext app setup` per il primo avvio.
 ### Aggiungere micro-servizi
 Nel caso si voglia utilizzare il micro-servizio di Next.js in combinazione con un altro micro-servizio (ES: Redis), bisogna seguire il seguente procedimento:
 1. `./wnext.sh app addMicroservice`
@@ -77,3 +77,4 @@ WNEXT è rilasciato sotto la licenza GNU General Public License (GPL), che signi
 - [ ]  Alcuni servizi, come redis, potrebbero non richiedere la creazione di un DOCKERFILE o di un entrypoint. per risolvere questo problema, chiedere ulteriori informazioni al momento della creazione del microservizio (ES: Immagine, se ha bisogno di un dockerfile e così via).
 - [x] CREATE README.md
 - [ ] Complete the readme file
+- [ ] Aggiungere controllo e gestione degli errori, ad esempio se uno prova ad avviare l'app senza che sia stata prima generata l'app nextjs tramite l'apposito comando setup
