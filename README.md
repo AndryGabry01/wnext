@@ -50,11 +50,11 @@ Al momento sono presenti i file .lang per:
 	- vars.txt
 	- wnext.sh
 	- docker-compose.base.yml
-	- .config
+	- config
 		- vars.txt_backup
 		- placeholders.txt_backup
 		- docker-compose.base.yml_backup
-	- .langs
+	- langs
 		- it.lang
 		- en.lang
 
