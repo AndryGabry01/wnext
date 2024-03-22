@@ -9,7 +9,7 @@ ENV_VARS_FILE_PATH="./vars.txt"
 # Caricamento delle variabili di ambiente
 source "$PLACEHOLDERS_FILE_PATH"
 source "$ENV_VARS_FILE_PATH"
-source "./.langs/it.lang"
+source "./langs/it.lang"
 # Funzione per visualizzare l'header dell'help
 function display_header_help {
     #echo "$SCRIPT_NAME"
