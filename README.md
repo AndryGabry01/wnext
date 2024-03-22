@@ -78,3 +78,4 @@ WNEXT è rilasciato sotto la licenza GNU General Public License (GPL), che signi
 - [x] CREATE README.md
 - [ ] Complete the readme file
 - [ ] Aggiungere controllo e gestione degli errori, ad esempio se uno prova ad avviare l'app senza che sia stata prima generata l'app nextjs tramite l'apposito comando setup
+- [ ] spostare i file del sito nextjs in una cartella in root oppure inserire un collegamento
