@@ -1,0 +1,69 @@
+# START HELP phrases
+# Header
+HELP_HEADER_1="Utilizzo:"
+HELP_HEADER_2="COMANDO [opzioni] [argomenti]"
+
+# APP
+HELP_APP_1="Comandi Applicazione:"
+HELP_APP_2="Configura il progetto"
+HELP_APP_3="Aggiungi un microservizio al progetto"
+HELP_APP_4="Avvia l'applicazione"
+HELP_APP_5="Avvia l'applicazione in background"
+HELP_APP_6="Arresta l'applicazione"
+HELP_APP_7="Arresta l'applicazione e rimuovi le risorse correlate"
+HELP_APP_8="Riavvia l'applicazione"
+
+# DOCKER
+HELP_DC_1="Comandi Docker-compose:"
+HELP_DC_2="Avvia l'applicazione Docker-compose"
+HELP_DC_3="Avvia l'applicazione Docker-compose in background"
+HELP_DC_4="Visualizza lo stato di tutti i container Docker-compose"
+HELP_DC_5="Arresta l'applicazione Docker-compose"
+HELP_DC_6="Arresta l'applicazione Docker-compose e rimuovi le risorse correlate"
+HELP_DC_7="Visualizza lo stato di tutti i container Docker-compose"
+HELP_DC_8="[COMANDO-DOCKER-COMPOSE-GENERIC]     Esegue un comando Docker-compose generico"
+
+#NODE
+HELP_NODE_1="Comandi Node:"
+HELP_NODE_2="[opzioni] [argomenti]      Esegui un comando Node"
+HELP_NODE_3="Esempio di comando Node"
+
+#NPM
+HELP_NPM_1="Comandi Npm:"
+HELP_NPM_2="[opzioni] [argomenti]       Esegui un comando Npm"
+HELP_NPM_3="Esempio di comando Npm"
+
+#NEXTJS
+HELP_NEXTJS_1="Comandi NextJs:"
+HELP_NEXTJS_2="<valore>             Modifica NextRunMode"
+HELP_NEXTJS_3="<valore>     Modifica NextJsExternalPort"
+HELP_NEXTJS_4="<valore>     Modifica NextJsInternalPort"
+
+#CUSTOM
+HELP_CUSTOM_1="Personalizzazione:"
+HELP_CUSTOM_2="Ricostruisci tutti i container di $SCRIPT_NAME"
+#END HELP
+
+#START ERROR & OTHER
+CHECK_NEXT_PROJECT_NAME_1="Impossibile creare un progetto chiamato"
+CHECK_NEXT_PROJECT_NAME_2="Errore: il nome del progetto non può essere 'next' o 'pages' poiché sono parole riservate in Next.js."
+
+CHECK_NEXT_RUN_MODE_1="NextRunMode impostato su "
+CHECK_NEXT_RUN_MODE_2="Errore: NextRunMode deve essere uno dei seguenti: 'dev', 'build', 'start', 'lint'"
+
+CREATE_NEXT_APP_1="Creazione di un nuovo progetto Next.js:"
+
+CHANGE_PLACEHOLDER_1="Errore: File"
+CHANGE_PLACEHOLDER_2="non trovato."
+CHANGE_PLACEHOLDER_3="Errore: Parametro"
+CHANGE_PLACEHOLDER_4="non trovato in"
+CHANGE_PLACEHOLDER_5="cambiato in"
+
+ADD_MICROSERVICE_1="Inserisci il nome del microservizio:"
+ADD_MICROSERVICE_2="Microservizio"
+ADD_MICROSERVICE_3="aggiunto con successo."
+ADD_MICROSERVICE_4="Ora devi configurare il microservizio nei seguenti file:"
+ADD_MICROSERVICE_5="Configura il microservizio sotto 'services'."
+ADD_MICROSERVICE_6="Configura il Dockerfile."
+ADD_MICROSERVICE_7="Configura lo script di entrypoint."
+#END ERROR & OTHERS

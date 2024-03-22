@@ -1,0 +1,4 @@
+NextJsAppName=docker-next
+NextJsExternalPort=3000
+NextJsInternalPort=3000
+NextRunMode=start
