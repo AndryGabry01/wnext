@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  nextjs:
+    build:
+      context: ./NextJs
+      dockerfile: Dockerfile
+    container_name: nextjsContainer_%NextJsAppName%
+    ports:
+      - '%NextJsExternalPort%:%NextJsInternalPort%'
+    volumes:
+      - ./NextJs:/app/nextjs
+    environment:
+      - NextJsAppName=%NextJsAppName%
+      - NextJsInternalPort=%NextJsInternalPort%
+      - NextRunMode=%NextRunMode%
